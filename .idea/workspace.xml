@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fefff85-a643-413b-80f4-5cc5ff152e54" name="Default" comment="" />
+    <list default="true" id="6fefff85-a643-413b-80f4-5cc5ff152e54" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/database/configuration/MongoConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/domain/Branch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/repository/BranchMongoRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/controller/NfcTagRestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/NfcTag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/dto/NfcTagDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/repository/NfcTagMongoRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageRestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/domain/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/exception/DocumentNotFoundException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/configuration/SecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/model/CurrentUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/service/UserDetailsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/controller/UserRestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/repository/UserMongoRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mongo-test.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/template/page.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/TestJsonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/group/repository/BranchMongoRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/nfc_tag/repository/NfcTagMongoRepositoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/controller/StandalonePageRestControllerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepositoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NfcTagManager.iml" afterPath="$PROJECT_DIR$/NfcTagManager.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +48,83 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="PageRestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/test-mongo.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/mongo.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/database/configuration/MongoConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/nfcTag/repository/NfcTagMongoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/domain/Group.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/repository/GroupMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/group/repository/GroupMongoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/model/CurrentUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/service/UserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/repository/UserMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mongo-test.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/controller/UserRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/controller/BranchRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/controller/Exception/NotExsists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfcTag/domain/NfcTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfcTag/repository/NfcTagMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfcTag/controller/NfcTagRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/domain/Branch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/group/repository/BranchMongoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/domain/PageContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/repository/PageContentMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/repository/PageContentMongoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/page_content.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/NfcTag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageContentController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/exception/DocumentNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/controller/PageRestControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageRestController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/TestJsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/domain/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/controller/StandalonePageRestControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/dto/NfcTagDto.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -37,12 +133,34 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1665" />
-    <option name="y" value="-4" />
-    <option name="width" value="1375" />
-    <option name="height" value="904" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="NfcTagManager" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="220" />
+    <option name="y" value="169" />
+    <option name="width" value="1533" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -59,14 +177,725 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc_tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc_tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc_tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc_tag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="group" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NfcTagManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo_training_1" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kowalik.dominik.nfc.page_content.controller" />
+      <recent name="com.kowalik.dominik.nfc.page_content.repository" />
+      <recent name="com.kowalik.dominik.nfc.group.repository" />
+      <recent name="com.kowalik.dominik.nfc.nfcTag.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kowalik.dominik.nfc" />
+      <recent name="com.kowalik.dominik.nfc.security.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/template" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,12 +909,183 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StandalonePageRestControllerTest">
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kowalik.dominik.nfc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kowalik.dominik.nfc.Application" />
+      <module name="NfcTagManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BranchMongoRepositoryTest.findAll_oneGroup_returnsGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kowalik.dominik.nfc.group.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NfcTagManager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kowalik.dominik.nfc.group.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.kowalik.dominik.nfc.group.repository.BranchMongoRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll_oneGroup_returnsGroup" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PageMongoRepositoryTest.findAll_oneGroup_returnsGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kowalik.dominik.nfc.page_content.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NfcTagManager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kowalik.dominik.nfc.page_content.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.kowalik.dominik.nfc.page_content.repository.PageMongoRepositoryTest" />
+      <option name="METHOD_NAME" value="findAll_oneGroup_returnsGroup" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StandalonePageRestControllerTest.get_elementExsists_returnsOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kowalik.dominik.nfc.page_content.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NfcTagManager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kowalik.dominik.nfc.page_content.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kowalik.dominik.nfc.page_content.controller.StandalonePageRestControllerTest" />
+      <option name="METHOD_NAME" value="get_elementExsists_returnsOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StandalonePageRestControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kowalik.dominik.nfc.page_content.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="NfcTagManager" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kowalik.dominik.nfc.page_content.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.kowalik.dominik.nfc.page_content.controller.StandalonePageRestControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -111,6 +1111,161 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -132,12 +1287,102 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NfcTagManager" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -168,9 +1413,50 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BranchMongoRepositoryTest.findAll_oneGroup_returnsGroup" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PageMongoRepositoryTest.findAll_oneGroup_returnsGroup" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StandalonePageRestControllerTest.get_elementExsists_returnsOK" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StandalonePageRestControllerTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StandalonePageRestControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StandalonePageRestControllerTest.get_elementExsists_returnsOK" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PageMongoRepositoryTest.findAll_oneGroup_returnsGroup" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BranchMongoRepositoryTest.findAll_oneGroup_returnsGroup" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -179,45 +1465,117 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500116494561</updated>
-      <workItem from="1500116503419" duration="162000" />
+      <workItem from="1500116503419" duration="2500000" />
+      <workItem from="1501148489197" duration="849000" />
+      <workItem from="1501149366964" duration="15236000" />
+      <workItem from="1501226525572" duration="20268000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 12m 29s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 13m 32s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 14m 48s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 38m 06s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 46m 04s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 15h 57m 07s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest - 2017.07.28 at 16h 01m 19s.xml">
+      <configuration name="StandalonePageRestControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest_get_elementExsists_returnsOK - 2017.07.28 at 14h 55m 38s.xml">
+      <configuration name="StandalonePageRestControllerTest.get_elementExsists_returnsOK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest_get_elementExsists_returnsOK - 2017.07.28 at 14h 56m 29s.xml">
+      <configuration name="StandalonePageRestControllerTest.get_elementExsists_returnsOK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StandalonePageRestControllerTest_get_elementExsists_returnsOK - 2017.07.28 at 14h 58m 37s.xml">
+      <configuration name="StandalonePageRestControllerTest.get_elementExsists_returnsOK" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162000" />
+    <option name="totallyTimeSpent" value="38853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1665" y="-4" width="1375" height="904" extended-state="7" />
+    <frame x="220" y="169" width="1533" height="868" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09150327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17777778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40915033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30919766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09150327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988358" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5686275" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40915033" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30919766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -226,17 +1584,900 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/NfcTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <marker date="1501240560133" expanded="true" signature="56:169" ph="..." />
+            <marker date="1501240560133" expanded="true" signature="171:213" ph="/**...*/" />
+            <marker date="1501240560133" expanded="true" signature="215:259" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/NfcTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1501240560133" expanded="true" signature="56:169" ph="..." />
+            <marker date="1501240560133" expanded="true" signature="171:213" ph="/**...*/" />
+            <marker date="1501240560133" expanded="true" signature="215:259" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/RunWith.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/RunWith.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-rest-core/2.6.3.RELEASE/spring-data-rest-core-2.6.3.RELEASE.jar!/org/springframework/data/rest/core/annotation/RepositoryRestResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <marker date="1501162988472" expanded="true" signature="53:256" ph="..." />
+            <marker date="1501162988472" expanded="true" signature="258:300" ph="/**...*/" />
+            <marker date="1501162988472" expanded="true" signature="301:355" ph="@{...}" />
+            <marker date="1501162988472" expanded="true" signature="489:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/database/configuration/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/repository/UserMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/user/controller/UserRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/controller/Exception/NotExsists.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/controller/BranchRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/org/springframework/boot/builder/SpringApplicationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="288" column="36" lean-forward="false" selection-start-line="288" selection-start-column="36" selection-end-line="288" selection-end-column="36" />
+          <folding>
+            <marker date="1500297087272" expanded="false" signature="0:620" ph="/.../" />
+            <marker date="1500297087272" expanded="false" signature="672:1477" ph="..." />
+            <marker date="1500297087272" expanded="true" signature="1479:2264" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="2566:2574" ph="&lt;~&gt;" />
+            <marker date="1500297087272" expanded="false" signature="2651:2667" ph="&lt;~&gt;" />
+            <marker date="1500297087272" expanded="false" signature="2778:2786" ph="&lt;~&gt;" />
+            <marker date="1500297087272" expanded="false" signature="2934:2939" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="2991:2994" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="2997:3356" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="3428:3433" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="3471:3474" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="3477:3608" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="3657:3662" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="3682:3685" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="3688:3787" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="3827:3832" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="3856:3859" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="3862:4165" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="4225:4601" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="4661:4955" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="4958:5105" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="5139:5144" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="5172:5175" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="5178:5440" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="5489:5602" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="5605:5890" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="5949:6619" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="6243:6419" ph="//..." />
+            <marker date="1500297087272" expanded="true" signature="6622:6893" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="6953:7196" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="7268:7501" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="7504:7668" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="7748:7880" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="7883:8165" ph="/**...*/" />
+            <marker date="1500297087272" expanded="false" signature="8225:8230" ph=" { " />
+            <marker date="1500297087272" expanded="false" signature="8274:8277" ph=" }" />
+            <marker date="1500297087272" expanded="true" signature="8280:8697" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="8773:8828" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="8831:8960" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="9064:9135" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="9138:9265" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="9326:9419" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="9422:9581" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="9644:9737" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="9740:9933" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="9995:10068" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="10071:10231" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="10304:10377" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="10380:10576" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="10632:10689" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="10759:10824" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="10827:11052" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="11113:11174" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="11177:11386" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="11471:11599" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="11602:11774" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="11844:11929" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="11932:12124" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="12221:12314" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="12317:12508" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="12582:12651" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="12727:13065" ph="{...}" />
+            <marker date="1500297087272" expanded="false" signature="12768:12784" ph="&lt;~&gt;" />
+            <marker date="1500297087272" expanded="true" signature="13133:13380" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="13383:13574" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="13649:13715" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="13790:13990" ph="{...}" />
+            <marker date="1500297087272" expanded="false" signature="13835:13851" ph="&lt;~&gt;" />
+            <marker date="1500297087272" expanded="true" signature="13993:14226" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="14301:14558" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="14561:14724" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="14787:14989" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="15087:15305" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="15308:15494" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="15587:15666" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="15669:15801" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="15884:15985" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="15988:16211" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="16291:16364" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="16367:16589" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="16690:16759" ph="{...}" />
+            <marker date="1500297087272" expanded="true" signature="16762:17173" ph="/**...*/" />
+            <marker date="1500297087272" expanded="true" signature="17254:17317" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1501237084495" expanded="true" signature="89:3769" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="459:689" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="707:1154" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1174:3524" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1195:1330" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1352:1491" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1513:1649" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1671:1816" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="1838:1986" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2008:2172" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2194:2355" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2377:2501" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2563:2709" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2766:2938" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="2960:3132" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="3154:3338" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="3360:3504" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="3537:3756" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="3555:3743" ph="..." />
+            <marker date="1501237084495" expanded="true" signature="3576:3724" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <marker date="1501237341953" expanded="false" signature="41:293" ph="..." />
+            <marker date="1501237341953" expanded="true" signature="295:337" ph="/**...*/" />
+            <marker date="1501237341953" expanded="true" signature="526:588" ph="{...}" />
+            <marker date="1501237341953" expanded="true" signature="650:713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/nfc_tag/repository/NfcTagMongoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1501232053360" expanded="true" signature="0:1508" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-rest-core/2.6.3.RELEASE/spring-data-rest-core-2.6.3.RELEASE-sources.jar!/org/springframework/data/rest/core/annotation/RepositoryRestResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <marker date="1501153726397" expanded="false" signature="0:615" ph="/.../" />
+            <marker date="1501153726397" expanded="false" signature="679:871" ph="..." />
+            <marker date="1501153726397" expanded="true" signature="873:1026" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1027:1103" ph="@{...}" />
+            <marker date="1501153726397" expanded="true" signature="1149:1315" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1352:1465" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1495:1614" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1661:1734" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1816:1929" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="1970:2037" ph="/**...*/" />
+            <marker date="1501153726397" expanded="true" signature="2113:2395" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mongo-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" lean-forward="false" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/template/page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <marker date="1501239719579" expanded="true" signature="136:182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/group/repository/BranchMongoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          <folding>
+            <marker date="1501232980114" expanded="false" signature="58:758" ph="..." />
+            <marker date="1501232980114" expanded="true" signature="760:802" ph="/**...*/" />
+            <marker date="1501232980114" expanded="true" signature="804:967" ph="@{...}" />
+            <marker date="1501232980114" expanded="true" signature="1197:1753" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/org/springframework/boot/autoconfigure/freemarker/FreeMarkerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <marker date="1499165503162" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1499165503162" expanded="false" signature="173:384" ph="..." />
+            <marker date="1499165503162" expanded="true" signature="386:446" ph="@{...}" />
+            <marker date="1499165503162" expanded="false" signature="949:960" ph=" { " />
+            <marker date="1499165503162" expanded="false" signature="978:984" ph=" }" />
+            <marker date="1499165503162" expanded="false" signature="1030:1041" ph=" { " />
+            <marker date="1499165503162" expanded="false" signature="1062:1068" ph=" }" />
+            <marker date="1499165503162" expanded="false" signature="1127:1138" ph=" { " />
+            <marker date="1499165503162" expanded="false" signature="1163:1169" ph=" }" />
+            <marker date="1499165503162" expanded="false" signature="1214:1225" ph=" { " />
+            <marker date="1499165503162" expanded="false" signature="1256:1262" ph=" }" />
+            <marker date="1499165503162" expanded="false" signature="1309:1320" ph=" { " />
+            <marker date="1499165503162" expanded="false" signature="1355:1361" ph=" }" />
+            <marker date="1499165503162" expanded="true" signature="1437:1506" ph="{...}" />
+            <marker date="1499165503162" expanded="true" signature="1576:1587" ph=" { " />
+            <marker date="1499165503162" expanded="true" signature="1633:1639" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/freemarker/FreeMarkerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="84" />
+          <folding>
+            <marker date="1501240509676" expanded="false" signature="0:620" ph="/.../" />
+            <marker date="1501240509676" expanded="false" signature="689:901" ph="..." />
+            <marker date="1501240509676" expanded="true" signature="903:1039" ph="/**...*/" />
+            <marker date="1501240509676" expanded="true" signature="1369:1460" ph="/**...*/" />
+            <marker date="1501240509676" expanded="false" signature="1512:1528" ph="&lt;~&gt;" />
+            <marker date="1501240509676" expanded="true" signature="1534:1586" ph="/**...*/" />
+            <marker date="1501240509676" expanded="true" signature="1675:1801" ph="/**...*/" />
+            <marker date="1501240509676" expanded="false" signature="1881:1886" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="1924:1927" ph=" }" />
+            <marker date="1501240509676" expanded="false" signature="1970:1975" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="1996:1999" ph=" }" />
+            <marker date="1501240509676" expanded="false" signature="2055:2060" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="2085:2088" ph=" }" />
+            <marker date="1501240509676" expanded="false" signature="2130:2135" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="2166:2169" ph=" }" />
+            <marker date="1501240509676" expanded="false" signature="2213:2218" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="2253:2256" ph=" }" />
+            <marker date="1501240509676" expanded="true" signature="2329:2389" ph="{...}" />
+            <marker date="1501240509676" expanded="false" signature="2456:2461" ph=" { " />
+            <marker date="1501240509676" expanded="false" signature="2507:2510" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/internal/matchers/Equals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <marker date="1499776866914" expanded="false" signature="0:119" ph="/.../" />
+            <marker date="1499776866914" expanded="false" signature="168:295" ph="..." />
+            <marker date="1499776866914" expanded="true" signature="544:555" ph=" { " />
+            <marker date="1499776866914" expanded="true" signature="576:582" ph=" }" />
+            <marker date="1499776866914" expanded="false" signature="625:636" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="682:688" ph=" }" />
+            <marker date="1499776866914" expanded="false" signature="741:752" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="793:799" ph=" }" />
+            <marker date="1499776866914" expanded="false" signature="842:853" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="891:897" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="928:1124" ph="{...}" />
+            <marker date="1499776866914" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="1189:1195" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="1247:1510" ph="{...}" />
+            <marker date="1499776866914" expanded="false" signature="1551:1562" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="1571:1577" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="1625:1853" ph="{...}" />
+            <marker date="1499776866914" expanded="false" signature="1642:1726" ph="(description) → {" />
+            <marker date="1499776866914" expanded="false" signature="1844:1846" ph="}" />
+            <marker date="1499776866914" expanded="true" signature="1901:1999" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/internal/matchers/Equality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1499776866914" expanded="false" signature="0:119" ph="/.../" />
+            <marker date="1499776866914" expanded="true" signature="364:659" ph="{...}" />
+            <marker date="1499776866914" expanded="true" signature="717:818" ph="{...}" />
+            <marker date="1499776866914" expanded="false" signature="881:892" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="942:948" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="1013:1184" ph="{...}" />
+            <marker date="1499776866914" expanded="false" signature="1222:1233" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="1263:1269" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/domain/Branch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1501232053484" expanded="true" signature="54:395" ph="..." />
+            <marker date="1501232053484" expanded="true" signature="397:439" ph="/**...*/" />
+            <marker date="1501232053484" expanded="true" signature="440:494" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/group/repository/BranchMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1501164625175" expanded="true" signature="58:220" ph="..." />
+            <marker date="1501164625175" expanded="true" signature="222:264" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/TestJsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501248184697" expanded="false" signature="41:243" ph="..." />
+            <marker date="1501248184697" expanded="true" signature="718:898" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.10.3.RELEASE/spring-data-mongodb-1.10.3.RELEASE.jar!/org/springframework/data/mongodb/repository/MongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1501148780604" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1501148780604" expanded="false" signature="167:509" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19-sources.jar!/org/mockito/Matchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <marker date="1499776866914" expanded="false" signature="0:119" ph="/.../" />
+            <marker date="1499776866914" expanded="false" signature="149:550" ph="..." />
+            <marker date="1499776866914" expanded="true" signature="552:4393" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="4394:4424" ph="/unchecked/" />
+            <marker date="1499776866914" expanded="true" signature="4552:4962" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="5001:5012" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="5056:5062" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="5068:5468" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="5501:5512" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="5555:5561" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="5567:5972" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="6005:6016" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="6059:6065" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="6071:6447" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="6478:6489" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="6532:6538" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="6544:6944" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="6977:6988" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="7031:7037" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="7043:7445" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="7480:7491" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="7534:7540" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="7546:7950" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="7987:7998" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="8041:8047" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="8053:8455" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="8490:8501" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="8544:8550" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="8556:9018" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="9054:9065" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="9112:9118" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="9124:9761" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="9797:9808" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="9868:9874" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="9884:10556" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="10600:10611" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="10662:10668" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="10678:11115" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="11145:11156" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="11179:11185" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="11191:11576" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="11613:11624" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="11669:11675" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="11685:12062" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="12095:12106" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="12149:12155" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="12169:12785" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="12841:12852" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="12902:12908" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="12922:13295" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="13326:13337" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="13379:13385" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="13395:14004" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="14058:14069" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="14117:14123" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="14129:14504" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="14535:14546" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="14588:14594" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="14600:15271" ph="/**...*/" />
+            <marker date="1499776866914" expanded="true" signature="15357:15415" ph="{...}" />
+            <marker date="1499776866914" expanded="true" signature="15425:15814" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="15859:15870" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="15913:15919" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="15933:16578" ph="/**...*/" />
+            <marker date="1499776866914" expanded="true" signature="16647:16719" ph="{...}" />
+            <marker date="1499776866914" expanded="true" signature="16729:17045" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="17089:17100" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="17164:17170" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="17176:17421" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="17465:17476" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="17530:17536" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="17542:17784" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="17822:17833" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="17886:17892" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="17898:18140" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="18178:18189" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="18242:18248" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="18254:18498" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="18540:18551" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="18604:18610" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="18616:18859" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="18899:18910" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="18963:18969" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="18979:19220" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="19256:19267" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="19320:19326" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="19332:19574" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="19612:19623" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="19676:19682" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="19688:19931" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="19971:19982" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="20035:20041" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="20047:20281" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="20317:20328" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="20392:20398" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="20404:21196" ph="/**...*/" />
+            <marker date="1499776866914" expanded="true" signature="21261:21358" ph="{...}" />
+            <marker date="1499776866914" expanded="true" signature="21368:21704" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="21742:21753" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="21815:21821" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="21827:21984" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="22018:22029" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="22074:22080" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="22086:22340" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="22387:22398" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="22447:22453" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="22459:22676" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="22711:22722" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="22774:22780" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="22786:23139" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="23187:23198" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="23254:23260" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="23270:23485" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="23522:23533" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="23550:23556" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="23562:23913" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="23963:23974" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="23996:24002" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="24008:24258" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="24310:24321" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="24382:24388" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="24394:24657" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="24704:24715" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="24771:24777" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="24783:25025" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="25074:25085" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="25143:25149" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="25155:25399" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="25450:25461" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="25521:25527" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="25533:25992" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="26044:26055" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="26101:26107" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="26117:26363" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="26423:26434" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="26477:26483" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="26493:26741" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="26805:26816" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="26860:26866" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="26876:27117" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="27172:27183" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="27226:27232" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="27242:27484" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="27542:27553" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="27596:27602" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="27612:27856" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="27912:27923" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="27966:27972" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="27978:28219" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="28274:28285" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="28328:28334" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="28344:28586" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="28644:28655" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="28698:28704" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="28714:28957" ph="/**...*/" />
+            <marker date="1499776866914" expanded="false" signature="29018:29029" ph=" { " />
+            <marker date="1499776866914" expanded="false" signature="29072:29078" ph=" }" />
+            <marker date="1499776866914" expanded="true" signature="29151:29242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1501241414102" expanded="false" signature="65:655" ph="..." />
+            <marker date="1501241414102" expanded="true" signature="657:699" ph="/**...*/" />
+            <marker date="1501241414102" expanded="true" signature="702:866" ph="@{...}" />
+            <marker date="1501241414102" expanded="true" signature="1026:1389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kowalik/dominik/nfc/page_content/controller/StandalonePageRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1501251109738" expanded="true" signature="65:1670" ph="..." />
+            <marker date="1501251109738" expanded="true" signature="1672:1714" ph="/**...*/" />
+            <marker date="1501251109738" expanded="true" signature="1716:1771" ph="@{...}" />
+            <marker date="1501251109738" expanded="true" signature="2613:2830" ph="{...}" />
+            <marker date="1501251109738" expanded="true" signature="2902:3293" ph="{...}" />
+            <marker date="1501251109738" expanded="true" signature="3368:3765" ph="{...}" />
+            <marker date="1501251109738" expanded="true" signature="3849:4075" ph="{...}" />
+            <marker date="1501251109738" expanded="true" signature="4157:4568" ph="{...}" />
+            <marker date="1501251109738" expanded="true" signature="4640:5137" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/repository/NfcTagMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1501232053312" expanded="true" signature="60:224" ph="..." />
+            <marker date="1501232053312" expanded="true" signature="226:268" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/NfcTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1501240560133" expanded="true" signature="56:169" ph="..." />
+            <marker date="1501240560133" expanded="true" signature="171:213" ph="/**...*/" />
+            <marker date="1501240560133" expanded="true" signature="215:259" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/domain/dto/NfcTagDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1501251303123" expanded="true" signature="60:210" ph="..." />
+            <marker date="1501251303123" expanded="true" signature="212:254" ph="/**...*/" />
+            <marker date="1501251303123" expanded="true" signature="256:300" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/nfc_tag/controller/NfcTagRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1501232053444" expanded="true" signature="53:115" ph="..." />
+            <marker date="1501232053444" expanded="true" signature="117:159" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <marker date="1501251109506" expanded="true" signature="58:534" ph="..." />
+            <marker date="1501251109506" expanded="false" signature="859:870" ph=" { " />
+            <marker date="1501251109506" expanded="false" signature="907:913" ph=" }" />
+            <marker date="1501251109506" expanded="true" signature="1021:1426" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/model/CurrentUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1501162565837" expanded="false" signature="57:311" ph="..." />
+            <marker date="1501162565837" expanded="true" signature="313:401" ph="/**...*/" />
+            <marker date="1501162565837" expanded="true" signature="402:453" ph="@{...}" />
+            <marker date="1501162565837" expanded="true" signature="783:909" ph="{...}" />
+            <marker date="1501162565837" expanded="false" signature="956:967" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="987:993" ph=" }" />
+            <marker date="1501162565837" expanded="false" signature="1040:1051" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="1064:1070" ph=" }" />
+            <marker date="1501162565837" expanded="false" signature="1126:1137" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="1149:1155" ph=" }" />
+            <marker date="1501162565837" expanded="false" signature="1210:1221" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="1233:1239" ph=" }" />
+            <marker date="1501162565837" expanded="false" signature="1299:1310" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="1322:1328" ph=" }" />
+            <marker date="1501162565837" expanded="false" signature="1374:1385" ph=" { " />
+            <marker date="1501162565837" expanded="false" signature="1397:1403" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/security/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="46" column="50" lean-forward="true" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding>
+            <marker date="1501237678299" expanded="true" signature="64:932" ph="..." />
+            <marker date="1501237678299" expanded="true" signature="934:976" ph="/**...*/" />
+            <marker date="1501237678299" expanded="true" signature="977:1067" ph="//..." />
+            <marker date="1501237678299" expanded="false" signature="1183:1194" ph=" { " />
+            <marker date="1501237678299" expanded="false" signature="1229:1235" ph=" }" />
+            <marker date="1501237678299" expanded="true" signature="1460:1570" ph="{...}" />
+            <marker date="1501237678299" expanded="true" signature="1651:2071" ph="{...}" />
+            <marker date="1501237678299" expanded="true" signature="1743:1952" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/repository/PageMongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <marker date="1501242304379" expanded="true" signature="65:232" ph="..." />
+            <marker date="1501242304379" expanded="true" signature="234:276" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/exception/DocumentNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1501244541370" expanded="true" signature="57:99" ph="/**...*/" />
+            <marker date="1501244541370" expanded="false" signature="214:224" ph=" { " />
+            <marker date="1501244541370" expanded="false" signature="235:241" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/domain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1501243995406" expanded="true" signature="61:300" ph="..." />
+            <marker date="1501243995406" expanded="true" signature="302:344" ph="/**...*/" />
+            <marker date="1501243995406" expanded="true" signature="346:390" ph="@{...}" />
+            <marker date="1501243995406" expanded="true" signature="415:431" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1501251109646" expanded="true" signature="65:403" ph="..." />
+            <marker date="1501251109646" expanded="true" signature="405:447" ph="/**...*/" />
+            <marker date="1501251109646" expanded="true" signature="449:496" ph="@{...}" />
+            <marker date="1501251109646" expanded="true" signature="643:834" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kowalik/dominik/nfc/page_content/controller/PageRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NfcTagManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
